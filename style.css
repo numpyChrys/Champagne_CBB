@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "MonTitre";
+    src: url(/mes_polices/Road_Rage.otf);
+}
+
+@font-face {
+    font-family: "menu";
+    src: url(/mes_polices/JAi_____.TTF);
+}
+
+@font-face {
+    font-family: "quote";
+    src: url(/mes_polices/Road_Rage.otf);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300&display=swap');
+
+/* Preparation de la barre de navigation gauche */
+#navigation {
+    background-color: rgb(100, 68, 255);
+    width: 250px;
+    height: 100vh;
+    z-index: 100;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.monLogo {
+    border: 1 solid black;
+   text-align: center;
+    
+}
+
+#navigation img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0px;
+    border-bottom: 1 solid black;
+   
+    
+
+}
+
+
+.nav-bar ul li {
+    padding: 20px;
+    text-align: center;
+    
+    
+
+}
+
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family:"menu", sans-serif;
+    letter-spacing: 4px;
+
+}
+
+.nav-bar ul li a:hover {
+    background-color: #f53f0e;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+
+/* Fin barre de navigation */
+
+/* Debut preparation header */
+
+#monHeader {
+    background-color:rgb(41, 2, 0);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.btn-menu {
+    position: absolute;
+    top: 2px;
+    left: 255px;
+    border-radius: 5px;
+    background-color: #0f34f5;
+    padding: 5px;
+    box-shadow: 5px 2px 2px 0px black;
+    
+} 
+
+#btn-signup {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    border-radius: 5px;
+    background-color: #0f34f5;
+    padding: 5px;
+    box-shadow: 5px 2px 2px 0px black;
+    
+} 
+
+.btn-menu a {
+    text-decoration: none;
+
+
+} 
+
+.btn-menu a:hover {
+    background-color: #fff;
+
+} 
+
+.champs {
+    font-family:"MonTitre" ; /*MonTitre est une police importee nomme ainsi volotairement. Elle m'a servi a designe le titre du header*/
+    font-size: 3em;
+    padding-top: 10px;
+    position: relative;
+    color: #ffffff;
+    
+}
+
+.champs span {
+    color:#f53f0e ;
+    padding-left: 15px;
+}
+
+.champs img{
+    width: 60px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+#monHeader blockquote {
+font-family: "quote";
+font-size: small;
+letter-spacing: 10px;
+padding-bottom: 10px;
+color:#f53f0e ;
+}
+
+/* Fin header */
+
+/* Debut container */
+
+.container {
+    margin-left: 20%;
+}
